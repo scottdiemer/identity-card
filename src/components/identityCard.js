@@ -62,11 +62,19 @@ const StyledWrapper = styled.div`
     display: block;
     position: absolute;
     top: 50%;
-    // left: -3em;
-    width: 100%; // calc(100% + 6em);
+    width: 100%;
     height: 1px;
     z-index: -1;
     background: #c8cccf;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social-icons a {
+    font-size: 2.5em;
+    color: brown;
   }
 `;
 
